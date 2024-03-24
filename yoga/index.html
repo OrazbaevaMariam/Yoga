@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="dist/all.min.css">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+</head>
+<body class="body">
+
+<header class="header wow animate__slideInDown" id="header">
+    <div class="container header__container">
+        <div class="header__burger" id="burger">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="40px" height="22px">
+                <path fill-rule="evenodd" fill="rgb(143, 127, 151)"
+                      d="M0.0,0.0 L39.999,0.0 L39.999,1.999 L0.0,1.999 L0.0,0.0 Z"/>
+                <path fill-rule="evenodd" fill="rgb(143, 127, 151)"
+                      d="M0.0,10.0 L39.999,10.0 L39.999,12.0 L0.0,12.0 L0.0,10.0 Z"/>
+                <path fill-rule="evenodd" fill="rgb(143, 127, 151)"
+                      d="M0.0,19.999 L39.999,19.999 L39.999,21.999 L0.0,21.999 L0.0,19.999 Z"/>
+            </svg>
+        </div>
+        <nav class="menu" id="menu">
+            <span class="logo header__logo">
+                    <img src="images/logo.png" alt="Logo">
+                </span>
+
+            <div class="menu__close">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                    <g>
+	                    <g>
+		                    <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	                    </g>
+                    </g>
+                </svg>
+            </div>
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a href="#about" class="menu__link">О нас</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#teachers" class="menu__link">Преподователи</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#service" class="menu__link">Услуги</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#studio" class="menu__link">Залы</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contacts" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
+<section class="main wow animate__slideInLeft">
+    <div class="container main__container">
+        <div class="main__info wow animate__backInRight">
+            <h1 class="main__title">Йога для <span class="main__title-strong">тела </span> и <br><span
+                    class="main__title-strong">души</span> в центре Москвы</h1>
+            <div class="main__text">
+                Мы поможем тебе расслабиться, раскрыться творчески, всегда оставаться активной и жизнерадостной.
+            </div>
+            <div class="main__actions">
+                <div class="main__action">
+                    <a href="#contacts">
+                        <button class="btn main__btn">
+                            Записаться на урок
+                        </button>
+                    </a>
+                </div>
+                <div class="main__action">
+                    <a href="#service">
+                        <button class="btn main__btn main__btn-transparent">
+                            Посмотреть услуги
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main__picture">
+            <img src="images/mainpic.png" alt="Main picture" class="main__picture-pic">
+        </div>
+        <div class="main__ellipse">
+            <img src="images/ellipse.png" alt="ellipse">
+        </div>
+        <div class="main__shape">
+            <img src="images/shaperight.png" alt="right shape">
+        </div>
+    </div>
+</section>
+<section class="description wow animate__slideInRight">
+    <div class="container description__container">
+        <div class="description__main">
+            <div class="description__text">
+                <span id="about" class="description__title double__title">О нас</span>
+                Добро пожаловать в YogaClub – место для йоги, пространство для души. Для нас практика йоги – это не
+                лечебная физкультура и не мистический ритуал. Мы стараемся донести до широкой аудитории важность
+                дыхания
+                и контакта со своим телом, ценность выработки регулярности в занятиях и необходимость направлять
+                внимание из суеты внешнего мира во внутрь себя.
+            </div>
+
+            <div class="description__video">
+                <iframe class="description__video-frame"
+                        src="https://www.youtube.com/embed/SZCxKjgReQ4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="characteristics">
+            <div class="characteristics__item">
+                <div class="characteristics__item-number">
+                    200
+                </div>
+                <div class="characteristics__item-text">
+                    часов йоги в неделю с 7 утра до 10 вечера
+                </div>
+            </div>
+            <div class="characteristics__item">
+                <div class="characteristics__item-number">
+                    100 м2
+                </div>
+                <div class="characteristics__item-text">
+                    уютного пространства йоги
+                </div>
+            </div>
+            <div class="characteristics__item">
+                <div class="characteristics__item-number">
+                    30
+                </div>
+                <div class="characteristics__item-text">
+                    профессиональных преподавателей
+                </div>
+            </div>
+            <div class="characteristics__item">
+                <div class="characteristics__item-number">
+                    1000
+                </div>
+                <div class="characteristics__item-text">
+                    чашек травяного чая в неделю
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="teachers wow animate__slideInUp">
+    <div class="container teachers__container">
+        <h2 class="teachers__title double__title" id="teachers">Наши преподователи</h2>
+        <div class="teachers__text">
+            Для каждого из наших преподавателей йога – это дело их жизни. Каждый звучит уникально, каждый преподносит
+            свое виденье, но суть остается единой. Мы хотим, чтобы вы нашли гармонию и радовались жизни во всех ее
+            проявлениях. Наши учителя вдохновляют, поддерживают, помогают понять и почувствовать йогу. Приходите
+            знакомиться!
+        </div>
+        <div class="teachers__container-items">
+            <div class="teachers__container-item">
+                <div><img src="images/protasova.png" class="photo" alt="woman 1"></div>
+                <div class="teachers__container-item-name">Анна Протасова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">6 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/lukyanova.png" class="photo" alt="woman 2"></div>
+                <div class="teachers__container-item-name">Кристина Лукъянова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">8 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/miso.png" class="photo" alt="woman 3"></div>
+                <div class="teachers__container-item-name">Евгения Мисо</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">5 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/protasova.png" class="photo" alt="woman 1"></div>
+                <div class="teachers__container-item-name">Анна Протасова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">6 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/lukyanova.png" class="photo" alt="woman 2"></div>
+                <div class="teachers__container-item-name">Кристина Лукъянова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">8 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/miso.png" class="photo" alt="woman 3"></div>
+                <div class="teachers__container-item-name">Евгения Мисо</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">5 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/protasova.png" class="photo" alt="woman 1"></div>
+                <div class="teachers__container-item-name">Анна Протасова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">6 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/lukyanova.png" class="photo" alt="woman 2"></div>
+                <div class="teachers__container-item-name">Кристина Лукъянова</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">8 </span>лет
+                    практики
+                </div>
+            </div>
+            <div class="teachers__container-item">
+                <div><img src="images/miso.png" class="photo" alt="woman 3"></div>
+                <div class="teachers__container-item-name">Евгения Мисо</div>
+                <div class="teachers__container-item-text"><span class="teachers__container-item--number">5 </span>лет
+                    практики
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="service wow animate__rollIn">
+    <div class="container service__container">
+        <h2 class="service__title double__title" id="service">Наши услуги</h2>
+        <div class="service__items">
+            <div class="service__item">
+                <div class="service__item-image service__item-image-hatha">
+                    <img src="images/hatha.png" alt="Хатха-йога">
+                </div>
+                <div class="service__item-text">
+                    Хатха-йога
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="service__item-image service__item-image-kundalili">
+                    <img src="images/kundalili.png" alt="Кундалили йога">
+                </div>
+                <div class="service__item-text">
+                    Кундалили йога
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="service__item-image service__item-image-termo">
+                    <img src="images/termo.png" alt="Термо-йога ">
+                </div>
+                <div class="service__item-text">
+                    Термо-йога
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="service__item-image ">
+                    <img src="images/ashtanga.png" alt="Йога аштанга" class="service__item-image-ashtanga">
+                </div>
+                <div class="service__item-text">
+                    Йога аштанга
+                </div>
+            </div>
+        </div>
+        <div class="service__action">
+            <button class="btn service__btn">
+                Посмотреть расписание
+            </button>
+        </div>
+    </div>
+</section>
+<section class="studio wow animate__slideInDown">
+    <div class="container studio__container">
+        <h2 class="studio__title double__title" id="studio">
+            Наши студии
+        </h2>
+        <div class="studio__paper-club">
+            <div class="studio__paper-club__info">
+                <h3 class="studio__paper-club__info-text">Yoga Club на Бумажной</h3>
+                <div class="studio__paper-club__info-description">
+                    Студия на ул. Бумажной - пространство света и воздуха. Эта маленькая уютная студия открылась
+                    летом 2016 года в мансарде здания на берегу реки Днепр – cветлый лофт с панорамными окнами и
+                    видом на реку.
+                </div>
+            </div>
+            <div class="studio__paper-club__image">
+                <img src="images/paperclub.png" alt="Yoga Club на Бумажной" class="studio__paper-club__pic">
+            </div>
+        </div>
+        <div class="studio__meat-club">
+            <div class="studio__meat-club__image">
+                <img src="images/meatclub.png" alt="Yoga Club на Мясникова" class="studio__paper-club__pic">
+            </div>
+            <div class="studio__meat-club__info">
+                <h3 class="studio__meat-club__info-text">Yoga Club на Мясникова</h3>
+                <div class="studio__meat-club__info">
+                    Наша основная студия была открыта в 2014 году. Сейчас это уже по настоящему большой йога-центр общей
+                    площадью более 400 м кв, который занимает два этажа исторического здания на ул. Мясникова
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="advantages wow animate__slideInLeft">
+    <div class="advantages__container container">
+        <div class="advantages_items">
+            <div class="advantages_item">
+                <div class="advantages_item-image">
+                    <img src="images/lotus.png" alt="Уютная атмосфера">
+                </div>
+                <div class="advantages_item-text">
+                    К нам приходят не только за йогой, но и за уютной атмосферой как дома.
+                </div>
+            </div>
+
+            <div class="advantages_item">
+                <div class="advantages_item-image">
+                    <img src="images/body.png" alt="Объединение">
+                </div>
+                <div class="advantages_item-text">
+                    Мы преданно любим практику йоги, ее уникальную способность объединять тело, ум и душу.
+                </div>
+            </div>
+
+            <div class="advantages_item">
+                <div class="advantages_item-image">
+                    <img src="images/energy.png" alt="Энергия">
+                </div>
+                <div class="advantages_item-text">
+                    Вы ощутите особую энергетику на наших занятиях.
+                </div>
+            </div>
+            <div class="advantages_item">
+                <div class="advantages_item-image">
+                    <img src="images/hands.png" alt="Пространство воздуха и света">
+                </div>
+                <div class="advantages_item-text">
+                    Наши студии – это пространство света и воздуха.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts wow animate__slideInRight">
+    <div class="container contacts__container">
+        <h2 class="contacts__title double__title" id="contacts">Контакты</h2>
+        <div class="contacts__form">
+            <div class="contacts__enroll">
+                <div class="contacts__image">
+                    <img src="images/pic_contacts.png" alt="lotus">
+                </div>
+                <h3 class="contacts__enroll-title">Первое занятие - скидка 10% </h3>
+                <div class="contacts__information">
+                    <div class="contacts__information-input input_border-one">
+                        <input type="text" placeholder="Ваше имя" class="contacts__placeholder" id="name" onclick="ValidPhone();">
+                    </div>
+                    <div class="error-input" id="error-input-name">Ввведите ваше имя</div>
+                    <div class="contacts__information-input input_border-two">
+                        <input type="tel" placeholder="Ваш телефон" class="contacts__placeholder" id="number">
+                    </div>
+                    <div class="error-input" id="error-input-number">Ввведите ваш номер телефона</div>
+                </div>
+                <div class="contacts__action" id="action">
+                    <button class="btn contacts__btn">
+                        Записаться на урок
+                    </button>
+                </div>
+                <div class="thanks">Спасибо за заявку, мы свяжемся с вами в ближайшее время!</div>
+            </div>
+            <div class="contacts__items">
+                <iframe class="contacts__items-map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71826.52162757273!2d37.54079330100063!3d55.76581871886594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a411693b2a9%3A0x9cec5a21e5246e1!2sYoga%20Space!5e0!3m2!1sru!2sru!4v1672382012039!5m2!1sru!2sru"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contacts__items-item">
+                    <div class="contacts__contacts__items-address">
+                        <div class="contacts__contacts__items-address-title">
+                            Адрес:
+                        </div>
+                        <div class="contacts__contacts__items-address-text">
+                            Москва, ул. Некрасова, 34
+                        </div>
+                    </div>
+                    <div class="contacts__contacts__items-address">
+                        <div class="contacts__contacts__items-address-title">
+                            Время работы:
+                        </div>
+                        <div class="contacts__contacts__items-address-text">
+                            Ежедневно с 9:00 до 21:00
+                        </div>
+                    </div>
+                    <div class="contacts__contacts__items-address telephone">
+                        <div class="contacts__contacts__items-address-title">
+                            Телефон:
+                        </div>
+                        <div class="contacts__contacts__items-address-text">
+                            +912 19 999 99
+                        </div>
+                    </div>
+                    <div class="contacts__contacts__items-address icons">
+                        <div class="contacts__contacts__items-address-title">
+                            Соц сети:
+                        </div>
+                        <div class="contacts__contacts__items-address-text contacts__icons">
+                            <div class="icon">
+                                <!--                            иконка эллипс 31px и граница круглая -->
+                                <svg class="icon__svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                     width="15" height="15"
+                                     viewBox="0 0 48 48"
+                                     style="fill:#3f3e3e;">
+                                    <path d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z"></path>
+                                </svg>
+                            </div>
+                            <div class="icon">
+
+                                <svg class="icon__svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                     width="20" height="20"
+                                     viewBox="0 0 24 24"
+                                     style="fill:#3f3e3e;">
+                                    <path d="M16.403,9H14V7c0-1.032,0.084-1.682,1.563-1.682h0.868c0.552,0,1-0.448,1-1V3.064c0-0.523-0.401-0.97-0.923-1.005 C15.904,2.018,15.299,1.999,14.693,2C11.98,2,10,3.657,10,6.699V9H8c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1l2-0.001V21 c0,0.552,0.448,1,1,1h2c0.552,0,1-0.448,1-1v-8.003l2.174-0.001c0.508,0,0.935-0.381,0.993-0.886l0.229-1.996 C17.465,9.521,17.001,9,16.403,9z"></path>
+                                </svg>
+                            </div>
+                            <div class="icon">
+                                <svg class="icon__svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                     width="18" height="18"
+                                     viewBox="0,0,256,256">
+                                    <g fill="#3f3e3e" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                       stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                       stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                       font-size="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(5.33333,5.33333)">
+                                            <path d="M45.763,35.202c-1.797,-3.234 -6.426,-7.12 -8.337,-8.811c-0.523,-0.463 -0.579,-1.264 -0.103,-1.776c3.647,-3.919 6.564,-8.422 7.568,-11.143c0.443,-1.202 -0.474,-2.472 -1.766,-2.472h-3.753c-1.237,0 -1.961,0.444 -2.306,1.151c-3.031,6.211 -5.631,8.899 -7.451,10.47c-1.019,0.88 -2.608,0.151 -2.608,-1.188c0,-2.58 0,-5.915 0,-8.28c0,-1.147 -0.938,-2.075 -2.095,-2.075l-6.856,-0.078c-0.863,0 -1.356,0.977 -0.838,1.662l1.132,1.625c0.426,0.563 0.656,1.248 0.656,1.951l-0.006,7.318c0,1.273 -1.543,1.895 -2.459,1.003c-3.099,-3.018 -5.788,-9.181 -6.756,-12.128c-0.28,-0.853 -1.079,-1.429 -1.985,-1.431l-3.697,-0.009c-1.387,0 -2.401,1.315 -2.024,2.639c3.378,11.857 10.309,23.137 22.661,24.36c1.217,0.12 2.267,-0.86 2.267,-2.073v-3.846c0,-1.103 0.865,-2.051 1.977,-2.079c0.039,-0.001 0.078,-0.001 0.117,-0.001c3.267,0 6.926,4.755 8.206,6.979c0.368,0.64 1.056,1.03 1.8,1.03h4.973c1.451,0 2.382,-1.539 1.683,-2.798z"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer wow animate__slideInUp">
+    <div class="container footer__container">
+        <img src="images/logo.png" alt="Logo">
+        <div class="footer__confidentiality">
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+        <div class="footer__rights">Все права защищены</div>
+    </div>
+
+</footer>
+    <div class="popup">
+        <table class="zebra">
+            <tr>
+                <th></th>
+                <th>01.06.2023</th>
+                <th>02.06.2023</th>
+                <th>03.06.2023</th>
+                <th>04.06.2023</th>
+            </tr>
+            <tr>
+                <td class="round-top">Хатха-йога</td>
+                <td>08:30</td>
+                <td>10:00</td>
+                <td>15:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Кундалили йога</td>
+                <td>13:30</td>
+                <td>15:30</td>
+                <td>17:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Термо-йога</td>
+                <td>08:30</td>
+                <td>10:00</td>
+                <td>15:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td class="round-bottom">Йога аштанга</td>
+                <td>13:30</td>
+                <td>15:30</td>
+                <td>17:00</td>
+                <td>19:00</td>
+            </tr>
+        </table>
+    </div>
+
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
